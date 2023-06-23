@@ -16,9 +16,15 @@
 
 1. 确保你的Python环境中已经安装了`pandas`、`random`和`shutil`库。
 
-2. 下载`copy_pdfs.py`脚本。
+2. 可以直接运行`copy_pdfs.py`脚本。
 
-3. 在你的Python环境中运行以下命令：
+```bash
+python copy_pdfs.py
+```
+
+!!! 参考下面进行修改copy_pdfs.py里面的内容。
+
+3. (optional) 也可以在你的Python环境中运行以下命令：
 
 ```python
 from copy_pdfs import copy_random_pdfs
