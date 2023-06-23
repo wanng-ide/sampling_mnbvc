@@ -2,7 +2,7 @@
 
 ## 简介
 
-`pdf_copy.py`是一个Python脚本，用于从大型pickle文件中抽取特定的PDF文件，并将这些文件复制到一个新的目录中。
+`copy_pdfs.py`是一个Python脚本，用于从大型pickle文件中抽取特定的PDF文件，并将这些文件复制到一个新的目录中。
 
 ## 功能
 
@@ -16,17 +16,18 @@
 
 1. 确保你的Python环境中已经安装了`pandas`、`random`和`shutil`库。
 
-2. 下载`pdf_copy.py`脚本。
+2. 下载`copy_pdfs.py`脚本。
 
 3. 在你的Python环境中运行以下命令：
 
 ```python
-from pdf_copy import copy_random_pdfs
+from copy_pdfs import copy_random_pdfs
 
 pkl_file = '/path/to/your.pkl'  # pickle文件的路径
 target_dir = '/path/to/target/dir'  # 目标文件夹路径
 n = 100  # 需要复制的文件数量
-stop_after_first_chunk = True  # 是否在第一个块中抽取到n行后就停止处理后续的块
+# 是否在第一个块中抽取到n行后就停止处理后续的块，设置为False的话就是对整个pkl进行sampling
+stop_after_first_chunk = False 
 
 copy_random_pdfs(pkl_file, target_dir, n, stop_after_first_chunk)
 ```
