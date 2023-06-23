@@ -16,6 +16,16 @@
 
 1. 确保你的Python环境中已经安装了`pandas`、`random`和`shutil`库。
 
+```bash
+pip install pandas
+```
+
+2. 针对pkl文件的格式为：
+
+```txt
+{'File': [], 'Size': [], 'SHA256': []}
+```
+
 2. 可以直接运行`copy_pdfs.py`脚本。
 
 ```bash
