@@ -1,5 +1,9 @@
 # sampling_mnbvc
 
+！！已弃用！！
+
+因为pkl文件管理办法已经被废弃。
+
 ## 简介
 
 `copy_pdfs.py`是一个Python脚本，用于从大型pickle文件中抽取特定的PDF文件，并将这些文件复制到一个新的目录中。
