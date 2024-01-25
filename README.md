@@ -1,4 +1,4 @@
-# sampling_mnbvc
+# sampling_mnbvc (已弃用)
 
 ！！已弃用！！
 
